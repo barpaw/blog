@@ -14,7 +14,7 @@ Simple open-source blog web application.
 - Integrate with some newsletter platform(s?)
 - Allow easy integration with external content providers by API
 - Admin dashboard (statistics, management)
-
+- Keycloak as Identity Provider (IDP)
 
 ## License
 
