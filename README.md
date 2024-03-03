@@ -15,7 +15,8 @@ Simple open-source blog web application.
 - Allow easy integration with external content providers by API
 - Admin dashboard (statistics, management)
 - Keycloak as Identity Provider (IDP)
-
+- Message Bus
+  
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
