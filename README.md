@@ -17,6 +17,7 @@ Simple open-source blog web application.
 - Keycloak as Identity Provider (IDP)
 - Message Bus
 - WYSIWYG Editor
+- Social share 
   
 ## License
 
