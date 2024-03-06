@@ -18,6 +18,7 @@ Simple open-source blog web application.
 - Message Bus
 - WYSIWYG Editor
 - Social share 
+- Time to read
   
 ## License
 
