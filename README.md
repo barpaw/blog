@@ -19,6 +19,7 @@ Simple open-source blog web application.
 - WYSIWYG Editor
 - Social share 
 - Time to read
+- Quora integration? 
   
 ## License
 
