@@ -20,7 +20,8 @@ Simple open-source blog web application.
 - Social share 
 - Time to read
 - Quora integration? 
-- Social share
+- Slug url
+- seo optimizations
   
 ## License
 
