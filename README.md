@@ -22,7 +22,10 @@ Simple open-source blog web application.
 - Quora integration? 
 - Slug url
 - seo optimizations
-  
+
+## To Do
+- big picture
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
