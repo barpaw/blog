@@ -22,6 +22,10 @@ Simple open-source blog web application.
 - Quora integration? 
 - Slug url
 - seo optimizations
+- posts drafts, schedule publication
+- add images
+- Two languages (EN/PL)
+- Dark/Light Theme
 
 ## To Do
 - big picture
