@@ -26,6 +26,7 @@ Simple open-source blog web application.
 - add images
 - Two languages (EN/PL)
 - Dark/Light Theme
+- integrate donations
 
 ## To Do
 - big picture
