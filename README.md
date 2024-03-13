@@ -27,6 +27,7 @@ Simple open-source blog web application.
 - Two languages (EN/PL)
 - Dark/Light Theme
 - integrate donations
+- contact page
 
 ## To Do
 - big picture
