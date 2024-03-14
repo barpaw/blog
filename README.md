@@ -28,6 +28,7 @@ Simple open-source blog web application.
 - Dark/Light Theme
 - integrate donations
 - contact page
+- archive section
 
 ## To Do
 - big picture
