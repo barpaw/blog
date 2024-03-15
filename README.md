@@ -29,6 +29,7 @@ Simple open-source blog web application.
 - integrate donations
 - contact page
 - archive section
+- modular monolith
 
 ## To Do
 - big picture
