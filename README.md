@@ -30,6 +30,7 @@ Simple open-source blog web application.
 - contact page
 - archive section
 - modular monolith
+- shorts
 
 ## To Do
 - big picture
