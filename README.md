@@ -31,6 +31,7 @@ Simple open-source blog web application.
 - archive section
 - modular monolith
 - shorts
+- sponsored articles
 
 ## To Do
 - big picture
