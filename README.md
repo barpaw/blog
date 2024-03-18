@@ -32,6 +32,7 @@ Simple open-source blog web application.
 - modular monolith
 - shorts
 - sponsored articles
+- Group posts with order and group name
 
 ## To Do
 - big picture
