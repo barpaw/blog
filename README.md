@@ -19,7 +19,7 @@ Simple open-source blog web application.
 - WYSIWYG Editor
 - Social share 
 - Time to read
-- Quora integration? 
+- Quora or disqus integration? 
 - Slug url
 - seo optimizations
 - posts drafts, schedule publication
