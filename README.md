@@ -7,35 +7,41 @@
 
 Simple open-source blog web application.
 
+![Blog home page](docs/images/home.png?raw=true)
+
+## Architecture & Infrastructure
+
+- Modular monolith
+- Message bus ([MassTransit](https://github.com/MassTransit/MassTransit) & RabbitMQ)
+- Uses [Keycloak](https://github.com/keycloak/keycloak) for Identity and Access Management (IDP)
+
+
 ## Features
 
-- CRUD Posts/Categories/Tags
-- Multiple Authors
+- CRUD Posts/Comments/Series/Categories/Tags/Comments
+- Posts divided into two types: shorts and articles
+- The post has one author, but posts can be published by different authors
+- Posts are not created through the editor in the application, but by synchronizing with the indicated git repository and specific Markdown files
+- Social media share 
+- Time to read
+- Slug url
+- SEO optimizations
+- Posts drafts, schedule publication
+- Two languages (EN/PL)
+- Dark Theme
+- Contact page
+- Archive page
+- Posts can be combined into a series (with name and order)
+- Guest comments secured by captcha
+
+## Designed with future features in mind
+
+- Admin dashboard (statistics, management)
 - Integrate with some newsletter platform(s?)
 - Allow easy integration with external content providers by API
-- Admin dashboard (statistics, management)
-- Keycloak as Identity Provider (IDP)
-- Message Bus
-- WYSIWYG Editor
-- Social share 
-- Time to read
-- Quora or disqus integration? 
-- Slug url
-- seo optimizations
-- posts drafts, schedule publication
-- add images
-- Two languages (EN/PL)
-- Dark/Light Theme
-- integrate donations
-- contact page
-- archive section
-- modular monolith
-- shorts
-- sponsored articles
-- Group posts with order and group name
-
-## To Do
-- big picture
+- Integrate donations
+- Media manager (photos)
+- Integration with comment service (Quora or Disqus)
 
 ## License
 
