@@ -18,30 +18,28 @@ Simple open-source blog web application.
 
 ## Features
 
-- CRUD Posts/Comments/Series/Categories/Tags/Comments
+- CRUD Posts/Categories/Tags
 - Posts divided into two types: shorts and articles
 - The post has one author, but posts can be published by different authors
 - Posts are not created through the editor in the application, but by synchronizing with the indicated git repository and specific Markdown files
-- Social media share 
-- Time to read
-- Slug url
-- SEO optimizations
 - Posts drafts, schedule publication
-- Two languages (EN/PL)
-- Dark Theme
 - Contact page
 - Archive page
-- Posts can be combined into a series (with name and order)
-- Guest comments secured by captcha
+- Social media share 
+- Time to read indicator
+- Slug URL / Clean URL
+- i18n (English & Polish)
+- Dark Theme
 
 ## Designed with future features in mind
 
+- CRUD Comments
 - Admin dashboard (statistics, management)
 - Integrate with some newsletter platform(s?)
 - Allow easy integration with external content providers by API
 - Integrate donations
 - Media manager (photos)
-- Integration with comment service (Quora or Disqus)
+- Series (gorup posts into series with defined name and order)
 
 ## License
 
