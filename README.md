@@ -4,7 +4,8 @@
 
 # Blog
 
-A simple open-source blog web application that can be almost entirely managed from the Git repository. (The blog database synchronizes with changes in the specified git repository.)
+A simple open-source blog web application that can be almost entirely managed from the Git repository. 
+###### (The blog database synchronizes with changes in the Git repository specified in the application settings. The blog automatically imports and synchronizes data in a specific format (template) from defined branches of the Git repository.)
 
 ## Main concepts
 
@@ -37,7 +38,7 @@ The git repository defined in the application settings will serve as a database 
 
 * Ads should have a specific structure defined in the markdown file.
 
-## Branch names used by app
+## Branch names used by app and commit templates
 
 | Branch Name | Description | Template |
 | ---------------------------------------------------------------- | ---------- | ----------- |
