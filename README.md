@@ -5,9 +5,19 @@
 
 # Blog
 
-Simple open-source blog web application.
+A simple open-source blog web application in which you can publish posts (markdown files with a defined structure) from the git repository.
 
-![Blog home page](docs/images/home.png?raw=true)
+## Main concepts
+
+* The git repository defined in the application settings will serve as a database of post drafts (they will be automatically imported and can be manually/automatically published).
+
+* Each post should be a separate branch in the repository (Branch is the unique identifier of a post).
+
+* Each post should have a specific structure defined in the markdown file.
+
+
+## Mockups
+![Blog home page](docs/images/mockups/homepage/homepage.png?raw=true)
 
 ## Architecture & Infrastructure
 
@@ -20,11 +30,11 @@ Simple open-source blog web application.
 
 - CRUD Posts/Categories/Tags
 - Posts divided into two types: shorts and articles
-- The post has one author, but posts can be published by different authors
 - Posts are not created through the editor in the application, but by synchronizing with the indicated git repository and specific Markdown files
-- Posts drafts, schedule publication
-- Contact page
-- Archive page
+- Two post publishing mechanisms: manual and automatic
+- Using automatic publishing, you can define the time of publication of the post
+- Using manual publishing, you can preview the post before publishing
+- The post has one author, but they may be different authors
 - Social media share 
 - Time to read indicator
 - Slug URL / Clean URL
@@ -41,6 +51,28 @@ Simple open-source blog web application.
 - Media manager (photos)
 - Series (gorup posts into series with defined name and order)
 
+## TODO
+
+### Mockups & visually defined project boundaries
+- [X] Guest: Homepage
+- [X] Guest: Publications (Shorts & Articles)
+- [X] Guest: Post
+- [ ] Guest: Archive
+- [ ] Guest: Newsletter
+- [ ] Guest: Contact
+- [ ] Guest: Search
+- [ ] Admin: Publications management
+- [ ] Admin: Blog Settings
+- [ ] Admin: Publications Logs
+- [ ] Admin: Audit Log
+- [ ] Admin: Dashboard with stats
+
+
+### Next
+- [ ] Big Picture
+- [ ] Database Schema
+- [ ] Implementation
+  
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
