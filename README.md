@@ -5,7 +5,7 @@
 # Blog
 
 A simple open-source blog web application that can be almost entirely managed from the Git repository. 
-###### (The blog database synchronizes with changes in the Git repository specified in the application settings. The blog automatically imports and synchronizes data in a specific format (template) from defined branches of the Git repository.)
+###### The blog database synchronizes with changes in the Git repository specified in the application settings. The blog automatically imports and synchronizes data in a specific format (template) from defined branches of the Git repository.
 
 ## Main concepts
 
