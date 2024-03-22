@@ -4,11 +4,11 @@
 
 # Blog
 
-A simple open-source blog web application that can be almost entirely managed from the Git repository.
+A simple open-source blog web application that can be almost entirely managed from the Git repository. (The blog database synchronizes with changes in the specified git repository.)
 
 ## Main concepts
 
-* The git repository defined in the application settings will serve as a database of posts, authors, settings, etc. The application will synchronize and update data from the git repository from time to time. For immediate updates, it will also be possible to use webhooks for this purpose.
+The git repository defined in the application settings will serve as a database of posts, authors, settings, etc. The application will synchronize and update data from the git repository from time to time. For immediate updates, it will also be possible to use webhooks for this purpose.
 
 #### Posts 
 * Posts commited on specified branch `posts/(...)` will be automatically imported and can be manually or automatically published.
