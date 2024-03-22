@@ -37,7 +37,7 @@ A simple open-source blog web application that can be almost entirely managed fr
 
 * Ads should have a specific structure defined in the markdown file.
 
-## Reserved 
+## Branch names used by app
 
 | Branch Name | Description | Template |
 | ---------------------------------------------------------------- | ---------- | ----------- |
