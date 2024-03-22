@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 
 [![100commitow.pl](https://img.shields.io/badge/Participant-100commitow.pl-000000)](http://100commitow.pl)
 
@@ -15,9 +16,12 @@ A simple open-source blog web application in which you can publish posts (markdo
 
 * Each post should have a specific structure defined in the markdown file.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Mockups
 ![Blog home page](docs/images/mockups/homepage/homepage.png?raw=true)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Architecture & Infrastructure
 
@@ -25,6 +29,7 @@ A simple open-source blog web application in which you can publish posts (markdo
 - Message bus ([MassTransit](https://github.com/MassTransit/MassTransit) & RabbitMQ)
 - Uses [Keycloak](https://github.com/keycloak/keycloak) for Identity and Access Management (IDP)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Features
 
@@ -41,6 +46,8 @@ A simple open-source blog web application in which you can publish posts (markdo
 - i18n (English & Polish)
 - Dark Theme
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Designed with future features in mind
 
 - CRUD Comments
@@ -50,6 +57,8 @@ A simple open-source blog web application in which you can publish posts (markdo
 - Integrate donations
 - Media manager (photos)
 - Series (gorup posts into series with defined name and order)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## TODO
 
@@ -72,9 +81,11 @@ A simple open-source blog web application in which you can publish posts (markdo
 - [ ] Big Picture
 - [ ] Database Schema
 - [ ] Implementation
-  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
