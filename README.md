@@ -2,19 +2,53 @@
 
 [![100commitow.pl](https://img.shields.io/badge/Participant-100commitow.pl-000000)](http://100commitow.pl)
 
-
-
 # Blog
 
-A simple open-source blog web application in which you can publish posts (markdown files with a defined structure) from the git repository.
+A simple open-source blog web application that can be almost entirely managed from the Git repository.
 
 ## Main concepts
 
-* The git repository defined in the application settings will serve as a database of post drafts (they will be automatically imported and can be manually/automatically published).
+* The git repository defined in the application settings will serve as a database of posts, authors, settings, etc. The application will synchronize and update data from the git repository from time to time. For immediate updates, it will also be possible to use webhooks for this purpose.
+
+#### Posts 
+* Posts commited on specified branch `posts/(...)` will be automatically imported and can be manually or automatically published.
 
 * Each post should be a separate branch in the repository (Branch is the unique identifier of a post).
 
 * Each post should have a specific structure defined in the markdown file.
+
+#### Authors 
+
+* Each author should have a specific structure defined in the markdown file.
+
+#### Series
+
+* Each series should have a specific structure defined in the markdown file.
+
+#### Announcement
+
+* Announcement should have a specific structure defined in the markdown file.
+
+#### Settings
+
+* Settings should have a specific structure defined in the markdown file.
+
+#### Ads
+
+* Ads should have a specific structure defined in the markdown file.
+
+## Reserved 
+
+| Branch Name | Description | Template |
+| ---------------------------------------------------------------- | ---------- | ----------- |
+| post/(...)                                                   | Posts will be imported from this branch.| [TODO](https://github.com/)     |
+| author/(...) | Authors will be imported from this branch. | [TODO](https://github.com/)     |
+| series/(...) | Series will be imported from this branch. | [TODO](https://github.com/)  |
+| announcement | Announcement will be imported from this branch. | [TODO](https://github.com/)  |
+| settings                                              | Settings will be imported from this branch. | [TODO](https://github.com/)  |
+| ads                                              | Ads will be imported from this branch. | [TODO](https://github.com/)  |
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -27,7 +61,7 @@ A simple open-source blog web application in which you can publish posts (markdo
 
 - Modular monolith
 - Message bus ([MassTransit](https://github.com/MassTransit/MassTransit) & RabbitMQ)
-- Uses [Keycloak](https://github.com/keycloak/keycloak) for Identity and Access Management (IDP)
+- Uses 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,17 +98,21 @@ A simple open-source blog web application in which you can publish posts (markdo
 
 ### Mockups & visually defined project boundaries
 - [X] Guest: Homepage
-- [X] Guest: Publications (Shorts & Articles)
+- [X] Guest: Publications Grid (Posts = Shorts & Articles)
 - [X] Guest: Post
+- [X] Guest: Series Grid
+- [ ] Guest: Series 
 - [ ] Guest: Archive
 - [ ] Guest: Newsletter
 - [ ] Guest: Contact
 - [ ] Guest: Search
-- [ ] Admin: Publications management
-- [ ] Admin: Blog Settings
-- [ ] Admin: Publications Logs
-- [ ] Admin: Audit Log
 - [ ] Admin: Dashboard with stats
+- [ ] Admin: Blog Settings
+- [ ] Admin: Publications management
+- [ ] Admin: Authors management
+- [ ] Admin: Series management
+- [ ] Admin: Synchronization Logs
+- [ ] Admin: Audit Logs
 
 
 ### Next
