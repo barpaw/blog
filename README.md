@@ -2,10 +2,15 @@
 
 [![100commitow.pl](https://img.shields.io/badge/Participant-100commitow.pl-000000)](http://100commitow.pl)
 
+
 # Blog
+
+![Logo](docs/images/logo/logo_small.png?raw=true)
 
 A simple open-source blog web application that can be almost entirely managed from the Git repository. 
 ###### The blog database synchronizes with changes in the Git repository specified in the application settings. The blog automatically imports and synchronizes data in a specific format (template) from defined branches of the Git repository.
+
+
 
 ## Main concepts
 
@@ -40,7 +45,7 @@ The git repository defined in the application settings will serve as a database 
 
 ## Branch names used by app and commit templates
 
-| Branch Name | Description | Template |
+| Branch name | Description | Template |
 | ---------------------------------------------------------------- | ---------- | ----------- |
 | post/(...)                                                   | Posts will be imported from this branch.| [TODO](https://github.com/)     |
 | author/(...) | Authors will be imported from this branch. | [TODO](https://github.com/)     |
