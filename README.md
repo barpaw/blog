@@ -48,18 +48,24 @@ The git repository defined in the application settings will serve as a database 
 | Branch name | Description | Template |
 | ---------------------------------------------------------------- | ---------- | ----------- |
 | post/(...)                                                   | Posts will be imported from this branch.| [TODO](https://github.com/)     |
+| categories                                                   | Categories will be imported from this branch.| [TODO](https://github.com/)     |
+| tags                                                   | Tags will be imported from this branch.| [TODO](https://github.com/)     |
 | author/(...) | Authors will be imported from this branch. | [TODO](https://github.com/)     |
 | series/(...) | Series will be imported from this branch. | [TODO](https://github.com/)  |
 | announcement | Announcement will be imported from this branch. | [TODO](https://github.com/)  |
 | settings                                              | Settings will be imported from this branch. | [TODO](https://github.com/)  |
 | ads                                              | Ads will be imported from this branch. | [TODO](https://github.com/)  |
-
-
+| terms                                              | Terms will be imported from this branch. | [TODO](https://github.com/)  |
+| contact                                              | Contact will be imported from this branch. | [TODO](https://github.com/)  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Mockups
-![Blog home page](docs/images/mockups/homepage/homepage.png?raw=true)
+* [Homepage](docs/images/mockups/homepage/homepage.png)
+* [Publications Grid](docs/images/mockups/publications_grid/publications_grid.png)
+* [Series Grid](docs/images/mockups/series_grid/series_grid.png)
+* [Post](docs/images/mockups/post/post.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +73,6 @@ The git repository defined in the application settings will serve as a database 
 
 - Modular monolith
 - Message bus ([MassTransit](https://github.com/MassTransit/MassTransit) & RabbitMQ)
-- Uses 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,10 +97,8 @@ The git repository defined in the application settings will serve as a database 
 
 - CRUD Comments
 - Admin dashboard (statistics, management)
-- Integrate with some newsletter platform(s?)
 - Allow easy integration with external content providers by API
 - Integrate donations
-- Media manager (photos)
 - Series (gorup posts into series with defined name and order)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,8 +111,8 @@ The git repository defined in the application settings will serve as a database 
 - [X] Guest: Post
 - [X] Guest: Series Grid
 - [ ] Guest: Series 
-- [ ] Guest: Archive
-- [ ] Guest: Newsletter
+- [X] Guest: Archive
+- [ ] Guest: Privacy policy / Terms
 - [ ] Guest: Contact
 - [ ] Guest: Search
 - [ ] Admin: Dashboard with stats
@@ -117,6 +120,7 @@ The git repository defined in the application settings will serve as a database 
 - [ ] Admin: Publications management
 - [ ] Admin: Authors management
 - [ ] Admin: Series management
+- [ ] Admin: Message Inbox
 - [ ] Admin: Synchronization Logs
 - [ ] Admin: Audit Logs
 
