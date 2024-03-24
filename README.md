@@ -120,7 +120,7 @@ The git repository defined in the application settings will serve as a database 
 - [ ] Admin: Publications management
 - [ ] Admin: Authors management
 - [ ] Admin: Series management
-- [ ] Admin: Message Inbox
+- [ ] Admin: Message inbox
 - [ ] Admin: Synchronization Logs
 - [ ] Admin: Audit Logs
 
