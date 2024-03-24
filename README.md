@@ -69,6 +69,7 @@ The git repository defined in the application settings will serve as a database 
 * [Search](docs/images/mockups/search/search.png)
 * [Archive](docs/images/mockups/archive/archive.png)
 * [Contact](docs/images/mockups/contact/contact.png)
+* [Privacy Policy / Terms](docs/images/mockups/privacypolicy/privacypolicy.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
