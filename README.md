@@ -63,9 +63,12 @@ The git repository defined in the application settings will serve as a database 
 ## Mockups
 * [Homepage](docs/images/mockups/homepage/homepage.png)
 * [Publications Grid](docs/images/mockups/publications_grid/publications_grid.png)
-* [Series Grid](docs/images/mockups/series_grid/series_grid.png)
 * [Post](docs/images/mockups/post/post.png)
-
+* [Series Grid](docs/images/mockups/series_grid/series_grid.png)
+* [Series](docs/images/mockups/series/series.png)
+* [Search](docs/images/mockups/search/search.png)
+* [Archive](docs/images/mockups/archive/archive.png)
+* [Contact](docs/images/mockups/contact/contact.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,11 +113,11 @@ The git repository defined in the application settings will serve as a database 
 - [X] Guest: Publications Grid (Posts = Shorts & Articles)
 - [X] Guest: Post
 - [X] Guest: Series Grid
-- [ ] Guest: Series 
+- [X] Guest: Series 
 - [X] Guest: Archive
-- [ ] Guest: Privacy policy / Terms
-- [ ] Guest: Contact
-- [ ] Guest: Search
+- [X] Guest: Privacy policy / Terms
+- [X] Guest: Contact
+- [X] Guest: Search
 - [ ] Admin: Dashboard with stats
 - [ ] Admin: Blog Settings
 - [ ] Admin: Publications management
