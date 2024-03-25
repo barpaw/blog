@@ -49,6 +49,7 @@ The git repository defined in the application settings will serve as a database 
 ## Architecture & Infrastructure
 
 - Modular monolith
+- Multi-tenancy
 - Message bus ([MassTransit](https://github.com/MassTransit/MassTransit) & RabbitMQ)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -57,10 +58,6 @@ The git repository defined in the application settings will serve as a database 
 
 - CRUD Posts/Categories/Tags
 - Posts divided into two types: shorts and articles
-- Posts are not created through the editor in the application, but by synchronizing with the indicated git repository and specific Markdown files
-- Two post publishing mechanisms: manual and automatic
-- Using automatic publishing, you can define the time of publication of the post
-- Using manual publishing, you can preview the post before publishing
 - The post has one author, but they may be different authors
 - Social media share 
 - Time to read indicator
