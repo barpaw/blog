@@ -7,56 +7,29 @@
 
 ![Logo](docs/images/logo/logo_big.png?raw=true)
 
-A simple open-source blog web application that can be almost entirely managed from the Git repository. 
-###### The blog database synchronizes with changes in the Git repository specified in the application settings. The blog automatically imports and synchronizes data in a specific format (template) from defined branches of the Git repository.
+A simple open-source blog web application that can be entirely managed from the Git repository. 
 
-
+###### The blog database synchronizes with changes in the Git repository specified in the application settings. The blog automatically imports and synchronizes data in a specific format (templates) from the Git repository.
 
 ## Main concepts
 
-The git repository defined in the application settings will serve as a database of posts, authors, settings, etc. The application will synchronize and update data from the git repository from time to time. For immediate updates, it will also be possible to use webhooks for this purpose.
+The git repository defined in the application settings will serve as a database of content and settings. The application will synchronize and update data from the git repository from time to time. For immediate updates, it will also be possible to use webhooks for this purpose.
 
-#### Posts 
-* Posts commited on specified branch `posts/(...)` will be automatically imported and can be manually or automatically published.
+## Templates and repository structure used by app
 
-* Each post should be a separate branch in the repository (Branch is the unique identifier of a post).
+| Name            | Type | Description                                    | Template |
+|-----------------|------|------------------------------------------------|----------|
+| posts/      | dir  | Posts will be imported from this folder.       | TODO     |
+| categories.yml      | file  | Categories will be imported from this file.  | TODO     |
+| tags.yml            | file  | Tags will be imported from this file.        | TODO     |
+| authors.yml    | file  | Authors will be imported from this file.     | TODO     |
+| series.yml    | file  | Series will be imported from this file.      | TODO     |
+| settings.yml        | file  | Settings will be imported from this file.   | TODO     |
+| announcements/    | dir  | Announcement will be imported from this folder.| TODO     |
+| ads/             | dir  | Ads will be imported from this folder.         | TODO     |
+| terms/           | dir  | Terms will be imported from this folder.       | TODO     |
+| contact/         | dir  | Contact will be imported from this folder.     | TODO     |
 
-* Each post should have a specific structure defined in the markdown file.
-
-#### Authors 
-
-* Each author should have a specific structure defined in the markdown file.
-
-#### Series
-
-* Each series should have a specific structure defined in the markdown file.
-
-#### Announcement
-
-* Announcement should have a specific structure defined in the markdown file.
-
-#### Settings
-
-* Settings should have a specific structure defined in the markdown file.
-
-#### Ads
-
-* Ads should have a specific structure defined in the markdown file.
-
-## Branch names used by app and commit templates
-
-| Branch name | Description | Template |
-| ---------------------------------------------------------------- | ---------- | ----------- |
-| post/(...)                                                   | Posts will be imported from this branch.| [TODO](https://github.com/)     |
-| categories                                                   | Categories will be imported from this branch.| [TODO](https://github.com/)     |
-| tags                                                   | Tags will be imported from this branch.| [TODO](https://github.com/)     |
-| author/(...) | Authors will be imported from this branch. | [TODO](https://github.com/)     |
-| series/(...) | Series will be imported from this branch. | [TODO](https://github.com/)  |
-| announcement | Announcement will be imported from this branch. | [TODO](https://github.com/)  |
-| settings                                              | Settings will be imported from this branch. | [TODO](https://github.com/)  |
-| ads                                              | Ads will be imported from this branch. | [TODO](https://github.com/)  |
-| terms                                              | Terms will be imported from this branch. | [TODO](https://github.com/)  |
-| contact                                              | Contact will be imported from this branch. | [TODO](https://github.com/)  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
