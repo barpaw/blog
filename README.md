@@ -54,9 +54,24 @@ The git repository defined in the application settings will serve as a database 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Entities
+
+- posts
+- categories
+- tags
+- authors
+- series
+- settings
+- announcements
+- ads
+- terms
+- contact
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Features
 
-- CRUD Posts/Categories/Tags
+- CRUD Posts/Categories/Tags/Series/
 - Posts divided into two types: shorts and articles
 - The post has one author, but they may be different authors
 - Social media share 
@@ -80,6 +95,7 @@ The git repository defined in the application settings will serve as a database 
 ## TODO
 
 ### Mockups & visually defined project boundaries
+
 - [X] Guest: Homepage
 - [X] Guest: Publications Grid (Posts = Shorts & Articles)
 - [X] Guest: Post
@@ -89,14 +105,6 @@ The git repository defined in the application settings will serve as a database 
 - [X] Guest: Privacy policy / Terms
 - [X] Guest: Contact
 - [X] Guest: Search
-- [ ] Admin: Dashboard with stats
-- [ ] Admin: Blog Settings
-- [ ] Admin: Publications management
-- [ ] Admin: Authors management
-- [ ] Admin: Series management
-- [ ] Admin: Message inbox
-- [ ] Admin: Synchronization Logs
-- [ ] Admin: Audit Logs
 
 
 ### Next
