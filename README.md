@@ -56,16 +56,17 @@ The git repository defined in the application settings will serve as a database 
 
 ## Entities
 
-- posts
-- categories
-- tags
-- authors
+- post
+- category
+- tag
+- author
 - series
-- settings
-- announcements
-- ads
-- terms
+- setting
+- announcement
+- ad
+- term
 - contact
+- repositories
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
