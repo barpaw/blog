@@ -51,7 +51,8 @@ The git repository defined in the application settings will serve as a database 
 - Modular monolith
 - Multi-tenancy
 - Message bus ([MassTransit](https://github.com/MassTransit/MassTransit) & RabbitMQ)
-
+- workers
+- 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Entities
