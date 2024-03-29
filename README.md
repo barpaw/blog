@@ -73,7 +73,7 @@ The git repository defined in the application settings will serve as a database 
 
 ## Features
 
-- CRUD Posts/Categories/Tags/Series/
+- CRUD Posts/Categories/Tags/Series/Repos
 - Posts divided into two types: shorts and articles
 - The post has one author, but they may be different authors
 - Social media share 
