@@ -108,9 +108,11 @@ The git repository defined in the application settings will serve as a database 
 - [X] Guest: Contact
 - [X] Guest: Search
 
+### Planning
+
+- [ ] Big Picture
 
 ### Next
-- [ ] Big Picture
 - [ ] Database Schema
 - [ ] Implementation
 
