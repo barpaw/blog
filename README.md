@@ -52,7 +52,8 @@ The git repository defined in the application settings will serve as a database 
 - Multi-tenancy
 - Message bus ([MassTransit](https://github.com/MassTransit/MassTransit) & RabbitMQ)
 - workers
-- 
+- queue
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Entities
