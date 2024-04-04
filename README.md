@@ -113,6 +113,7 @@ The git repository defined in the application settings will serve as a database 
 
 ### Planning
 
+- [X] REPOSITORY CHANGES SYNCHRONIZATION
 - [ ] Big Picture
 
 ### Next
