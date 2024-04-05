@@ -54,7 +54,7 @@ The git repository defined in the application settings will serve as a database 
 - workers
 - in-memory queue
 - outbox pattern
-
+- Postgresql Database
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
