@@ -114,10 +114,10 @@ The git repository defined in the application settings will serve as a database 
 ### Planning
 
 - [X] REPOSITORY CHANGES SYNCHRONIZATION
+- [X] Database Schema
 - [ ] Big Picture
 
 ### Next
-- [ ] Database Schema
 - [ ] Implementation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
