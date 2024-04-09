@@ -114,7 +114,7 @@ The git repository defined in the application settings will serve as a database 
 ### Planning
 
 - [X] REPOSITORY CHANGES SYNCHRONIZATION
-- [ ] Database Schema (in progress...)
+- [ ] Database Schema (in progress....)
 - [ ] Big Picture
 
 ### Next
