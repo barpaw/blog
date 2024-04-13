@@ -55,7 +55,6 @@ The git repository defined in the application settings will serve as a database 
 - in-memory queue
 - outbox pattern
 - Postgresql Database
-- event sourcing???
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
