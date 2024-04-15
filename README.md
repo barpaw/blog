@@ -57,6 +57,7 @@ The git repository defined in the application settings will serve as a database 
 - Postgresql Database
 - MinIO - Object Storage
   
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Entities
@@ -115,7 +116,7 @@ The git repository defined in the application settings will serve as a database 
 ### Planning
 
 - [X] REPOSITORY CHANGES SYNCHRONIZATION
-- [ ] Database Schema (in progress....)
+- [ ] Database Schema (in progress.....)
 - [ ] Big Picture
 
 ### Next
