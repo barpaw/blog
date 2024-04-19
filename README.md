@@ -25,7 +25,6 @@ The git repository defined in the application settings will serve as a database 
 | authors.yml    | file  | Authors will be imported from this file.     | TODO     |
 | series.yml    | file  | Series will be imported from this file.      | TODO     |
 | settings.yml        | file  | Settings will be imported from this file.   | TODO     |
-| social.yml        | file  | Socials will be imported from this file.   | TODO     |
 | announcements/    | dir  | Announcement will be imported from this folder.| TODO     |
 | ads/             | dir  | Ads will be imported from this folder.         | TODO     |
 | terms/           | dir  | Terms will be imported from this folder.       | TODO     |
@@ -117,7 +116,7 @@ The git repository defined in the application settings will serve as a database 
 ### Planning
 
 - [X] REPOSITORY CHANGES SYNCHRONIZATION
-- [ ] Database Schema (in progress...)
+- [ ] Database Schema (in progress.....)
 - [ ] Big Picture
 
 ### Next
