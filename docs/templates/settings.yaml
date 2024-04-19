@@ -1,0 +1,44 @@
+settings:
+  - blog_name: "" 
+  - blog_title: ""
+  - blog_subtitle: ""
+  - blog_url: ""
+  - blog_logo_base64: ""
+  - blog_description: ""
+categories:
+  - category_code: "SOLAR"
+    category: "Solar Energy"
+  - category_code: "WIND"
+    category: "Wind Power"
+  - category_code: "HYDRO"
+    category: "Hydroelectric Power"
+  - category_code: "GEOTHERMAL"
+    category: "Geothermal Energy"
+  - category_code: "BIOMASS"
+    category: "Biomass and Biofuels"
+  - category_code: "STORAGE"
+    category: "Energy Storage"
+  - category_code: "POLICY"
+    category: "Policy and Regulations"
+  - category_code: "MARKET"
+    category: "Market Trends"
+  - category_code: "INNOVATION"
+    category: "Innovations in Technology"
+  - category_code: "SUSTAINABILITY"
+    category: "Sustainability and Environment"
+social_media:
+  - name: "facebook.com"
+    nametag: "example"
+    full_url: "https://facebook.com/example"
+    allow_share: true
+    is_visible: true
+  - name: "instagram.com"
+    nametag: "example"
+    full_url: "https://instagram.com/example"
+    allow_share: true
+    is_visible: true
+  - name: "x.com"
+    nametag: "example"
+    full_url: "https://x.com/example"
+    allow_share: true
+    is_visible: true

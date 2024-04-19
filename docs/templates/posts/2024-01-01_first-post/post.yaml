@@ -1,0 +1,17 @@
+title: "Post title"
+first_paragraph: "This is the first paragraph of the post."
+info_html: "Post Sponsored by <a href="https://exmaple.com>Future Eco Ways</a>"
+category: "WIND"
+tags: ["tag1", "tag2", "tag3", "tag4"]
+time_to_read_in_minutes: 10
+is_article: true
+is_promoted: true
+files: ["image.webp"]
+author: "NICK_HAMMOND"
+series: "RENEWABLE_ROUNDUP"
+post_order_in_series: 1
+slug_ur: "first-post"
+created_at: "2024-04-18T15:00:00Z" 
+updated_at: ""
+
+
