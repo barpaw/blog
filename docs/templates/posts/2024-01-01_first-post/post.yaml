@@ -1,3 +1,4 @@
+version: 1
 title: "Post title"
 first_paragraph: "This is the first paragraph of the post."
 info_html: "Post Sponsored by <a href="https://exmaple.com>Future Eco Ways</a>"
@@ -6,6 +7,7 @@ tags: ["tag1", "tag2", "tag3", "tag4"]
 time_to_read_in_minutes: 10
 is_article: true
 is_promoted: true
+is_published: true
 files: ["image.webp"]
 author: "NICK_HAMMOND"
 series: "RENEWABLE_ROUNDUP"
