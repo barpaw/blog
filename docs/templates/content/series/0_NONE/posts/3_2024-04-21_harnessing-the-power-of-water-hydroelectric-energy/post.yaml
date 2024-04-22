@@ -1,0 +1,17 @@
+version: 1
+title: "Harnessing the Power of Water: Hydroelectric Energy"
+first_paragraph: "Hydroelectric power is a cornerstone of renewable energy, utilizing massive dams, river turbines, and fossil fuels."
+info_html: "Post Sponsored by <a href="https://example.com">Water Ways Power</a>"
+category: "HYDRO"
+author: "NICK_HAMMOND"
+series: "NONE"
+tags: ["hydro power", "renewable energy", "sustainable technology", "clean energy"]
+time_to_read_in_minutes: 11
+is_article: true
+is_promoted: true
+is_published: true
+files: ["image.webp"]
+post_order_in_series: 3
+slug_url: "harnessing-the-power-of-water-hydroelectric-energy"
+created_at: "2024-04-21T15:00:00Z" 
+updated_at: ""
