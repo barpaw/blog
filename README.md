@@ -19,17 +19,14 @@ The git repository defined in the application settings will serve as a database 
 
 | Name            | Type | Description                                    | Template |
 |-----------------|------|------------------------------------------------|----------|
-| posts/      | dir  | Posts will be imported from this folder.       | TODO     |
-| categories.yml      | file  | Categories will be imported from this file.  | TODO     |
-| tags.yml            | file  | Tags will be imported from this file.        | TODO     |
-| authors.yml    | file  | Authors will be imported from this file.     | TODO     |
-| series.yml    | file  | Series will be imported from this file.      | TODO     |
-| settings.yml        | file  | Settings will be imported from this file.   | TODO     |
-| announcements/    | dir  | Announcement will be imported from this folder.| TODO     |
-| ads/             | dir  | Ads will be imported from this folder.         | TODO     |
-| terms/           | dir  | Terms will be imported from this folder.       | TODO     |
-| contact/         | dir  | Contact will be imported from this folder.     | TODO     |
-
+| content/{series-order_series-name}/posts/      | dir  | Posts will be imported from this folder and will be associated with the series.  | [Example](docs/templates/content/0_NONE/posts/)     |
+| files/{folder_name}    | dir  | Includes (frontend static blog content) and other files, e.g. images, will be imported from this folder.     | [Example](docs/templates/files/)      |
+| authors.yml    | file  | Authors will be imported from this file.     | [Example](docs/templates/authors.yaml)     |
+| categories.yml      | file  | Categories will be imported from this file.  | [Example](docs/templates/categories.yaml)     |
+| includes.yml      | file  | Includes will be imported from this file.  | [Example](docs/templates/includes.yaml)     |
+| series.yml    | file  | Data related to series (collections) of posts will be imported from this file.      | [Example](docs/templates/series.yaml)     |
+| settings.yml        | file  | Blog-related settings will be imported from this file.   | [Example](docs/templates/settings.yaml)     |
+| socials.yml        | file  | Settings related to social media and other portals will be imported from this file.   | [Example](docs/templates/socials.yaml)     |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

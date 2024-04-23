@@ -1,10 +1,13 @@
 version: 1
 files_path: "files/blog/"
 settings:
-  - blog_name: "Green Power Guru"
+  - blog_code: "GREENPOWERGURU"
+    blog_name: "Green Power Guru"
     blog_title: "Green Power Insights"
     blog_subtitle: "Your Daily Dose of Renewable Energy Expertise"
     blog_url: "https://www.example.com"
     blog_logo_file: "logo.webp"
     blog_description: "Green Power Guru offers the latest news, in-depth analyses, and innovative ideas in the field of renewable energy. From solar panels to wind farms and beyond, discover how renewable technologies are transforming our world, one watt at a time."
-    blog_frontend_type: 1
+    blog_frontend_version: 1
+    blog_api_version: 1
+

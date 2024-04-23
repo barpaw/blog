@@ -15,3 +15,8 @@ social_media:
     full_url: "https://x.com/example"
     allow_share: true
     is_visible: true
+  - name: "github.com"
+    nametag: "example"
+    full_url: "https://github.com/example"
+    allow_share: false
+    is_visible: true
