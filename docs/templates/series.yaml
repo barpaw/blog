@@ -2,39 +2,39 @@ version: 1
 files_path: "files/series/"
 series:
     - series_code: "NONE"
-      series_order: 0
       series_name: "None"
       series_description: "Blank."
+      series_order: 0
       series_logo_file: "logo_none.webp"
     - series_code: "ECO_INNOVATORS"
-      series_order: 1
       series_name: "Eco Innovators"
       series_description: "Dive into 'Eco Innovators', a series dedicated to the latest advancements in renewable technology. Highlighting pioneering projects, cutting-edge research, and the brilliant minds leading the way, this series showcases the innovation driving the renewable energy sector forward."
+      series_order: 1      
       series_logo_file: "logo_eco_innovators.webp"
     - series_code: "RENEWABLE_ROUNDUP"
-      series_order: 2
       series_name: "Renewable Roundup"
       series_description: "Explore a comprehensive spectrum of renewable energy topics in 'Renewable Roundup'. This series covers everything from solar and wind technologies to the latest developments in bioenergy and geothermal power, offering a broad view of the renewable energy landscape."
+      series_order: 2
       series_logo_file: "logo_renewable_roundup.webp"
     - series_code: "GREEN_POWER_PLAYS"
-      series_order: 3
       series_name: "Green Power Plays"
       series_description: "Uncover the political and economic forces shaping the renewable energy industry in 'Green Power Plays'. This series discusses significant policy changes, market trends, and investment opportunities, providing insights into the strategic moves that are powering the green energy revolution."
+      series_order: 3
       series_logo_file: "logo_green_power_plays.webp"
     - series_code: "LOCAL_IMPACT"
-      series_order: 4
       series_name: "Local Impact"
       series_description: "Explore how renewable energy projects are transforming local communities around the world. This series examines the socioeconomic benefits, challenges faced by local populations, and the environmental impact of these projects on a micro scale."
+      series_order: 4
       series_logo_file: "logo_local_impact.webp"
     - series_code: "RENEWABLE_TRANSPORT"
-      series_order: 5
       series_name: "Renewable Transport"
       series_description: "This series covers the integration of renewable energy technologies in transportation. Discover how electric vehicles, hydrogen fuel cells, and biofuels are paving the way for a greener transit system worldwide."
+      series_order: 5
       series_logo_file: "logo_renewable_transport.webp"
     - series_code: "POLICY_REGULATION"
-      series_order: 6
       series_name: "Policy Regulation"
       series_description: "Analyze the global landscape of policies and regulations shaping renewable energy sectors. This series provides insights into governmental strategies, international agreements, and regulatory frameworks driving or hindering renewable energy adoption."
+      series_order: 6
       series_logo_file: "logo_policy_regulation.webp"
 
 

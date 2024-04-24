@@ -20,7 +20,7 @@ The git repository defined in the application settings will serve as a database 
 | Name            | Type | Description                                    | Template |
 |-----------------|------|------------------------------------------------|----------|
 | content/{series-order_series-name}/posts/      | dir  | Posts will be imported from this folder and will be associated with the series.  | [Example](docs/templates/content/0_NONE/posts/)     |
-| files/{folder_name}    | dir  | Includes (frontend static blog content) and other files, e.g. images, will be imported from this folder.     | [Example](docs/templates/files/)      |
+| files/{folder_name}    | dir  | Includes (frontend static blog content) and other files (assets), e.g. images, will be imported from this folder.     | [Example](docs/templates/files/)      |
 | authors.yml    | file  | Authors will be imported from this file.     | [Example](docs/templates/authors.yaml)     |
 | categories.yml      | file  | Categories will be imported from this file.  | [Example](docs/templates/categories.yaml)     |
 | includes.yml      | file  | Includes will be imported from this file.  | [Example](docs/templates/includes.yaml)     |
