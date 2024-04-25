@@ -1,6 +1,6 @@
 version: 1
 files_path: "files/includes/"
-embedded_files_path: "files/includes/files/"
+embedded_files_path: "files/"
 includes:
   - include_type: "AD"
     include_destiny: "AD_SIDEBAR"
@@ -27,26 +27,3 @@ includes:
     include_file: "terms.md"
     include_embedded_files: []
     is_include_visible: true
-
-    # includes_types:
-#     - code: "AD"
-#       description: ""
-#     - code: "ANNONUNCEMENT"
-#       description: ""
-#     - code: "CONTACT"
-#       description: ""
-#     - code: "PRIVACY_POLICY"
-#       description: ""
-#     - code: "TERMS"
-#       description: ""
-# includes_destiny:
-#     - code: "AD_SIDEBAR"
-#       description: ""
-#     - code: "ANNONUNCEMENT_HEADER"
-#       description: ""
-#     - code: "CONTACT_PAGE"
-#       description: ""
-#     - code: "PRIVACY_POLICY_PAGE"
-#       description: ""
-#     - code: "TERMS_PAGE"
-#       description: ""
