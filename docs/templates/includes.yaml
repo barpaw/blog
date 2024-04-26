@@ -1,5 +1,5 @@
 version: 1
-files_path: "files/includes/"
+files_path: "includes/"
 embedded_files_path: "files/"
 includes:
   - include_type: "AD"
