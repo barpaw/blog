@@ -21,6 +21,8 @@ Solar energy plays a vital role in the global shift towards renewable energy, wi
 
 ![Solar Panels](files/image.webp)
 
+[PDF Example](files/file.pdf)
+
 ###### Code Insights
 
 ```python

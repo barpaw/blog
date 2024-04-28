@@ -1,4 +1,6 @@
-version: 1
+schema_version: 1
+blog_frontend_version: 1
+blog_api_version: 1
 settings:
   - blog_code: "GREENPOWERGURU"
     blog_name: "Green Power Guru"
@@ -6,10 +8,56 @@ settings:
     blog_subtitle: "Your Daily Dose of Renewable Energy Expertise"
     blog_url: "https://www.example.com"
     blog_logo_file: "blog_logo.webp"
+    blog_logo_file_alt_text: ""
     blog_description: "Green Power Guru offers the latest news, in-depth analyses, and innovative ideas in the field of renewable energy. From solar panels to wind farms and beyond, discover how renewable technologies are transforming our world, one watt at a time."
-    visible_external_platforms: ["FACEBBOKCOM", "XCOM"]
-    visible_external_platforms_nametags: ["example", "example"]
-    allow_share_external_platforms: ["FACEBBOKCOM", "XCOM"]
-    allow_share_external_platforms_nametags: ["example", "example"]
-    blog_frontend_version: 1
-    blog_api_version: 1
+external_platforms:
+  - external_platform_code: "FACEBBOKCOM"
+    external_platform_nametag: "example"
+    external_platform_allow_share: true
+    external_platform_is_visible: true
+  - external_platform_code: "INSTAGRAMCOM"
+    external_platform_nametag: "example"
+    external_platform_allow_share: true
+    external_platform_is_visible: true
+  - external_platform_code: "GITHUBCOM"
+    external_platform_nametag: "example"
+    external_platform_allow_share: true
+    external_platform_is_visible: true
+  - external_platform_code: "XCOM"
+    external_platform_nametag: "example"
+    external_platform_allow_share: true
+    external_platform_is_visible: true
+includes:
+  - include_type: "AD"
+    include_destiny: "AD_SIDEBAR"
+    include_file: "ad_sidebar.md"
+    is_include_visible: true
+    include_embedded_files: 
+      - file: "example_1.webp"
+        file_alt_text: ""
+      - file: "example_2.webp"
+        file_alt_text: ""
+  - include_type: "ANNONUNCEMENT"
+    include_destiny: "ANNONUNCEMENT_HEADER"
+    include_file: "announcement.md"
+    is_include_visible: true
+    include_embedded_files: []
+  - include_type: "CONTACT"
+    include_destiny: "CONTACT_PAGE"
+    include_file: "contact.md"
+    is_include_visible: true
+    include_embedded_files: []
+  - include_type: "PRIVACY_POLICY"
+    include_destiny: "PRIVACY_POLICY_PAGE"
+    include_file: "privacy_policy.md"
+    is_include_visible: true
+    include_embedded_files: 
+      - file: "example_1.webp"
+        file_alt_text: ""
+  - include_type: "TERMS"
+    include_destiny: "TERMS_PAGE"
+    include_file: "terms.md"
+    is_include_visible: true
+    include_embedded_files: 
+      - file: "example_1.webp"
+        file_alt_text: ""

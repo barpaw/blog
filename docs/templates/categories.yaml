@@ -1,4 +1,4 @@
-version: 1
+schema_version: 1
 categories:
   - category_code: "SOLAR"
     category_name: "Solar Energy"

@@ -10,7 +10,9 @@ time_to_read_in_minutes: 10
 is_article: true
 is_promoted: true
 is_published: true
-files: ["image.webp"]
+files: 
+    - file: "image.webp"
+      file_alt_text: "An illustrative image showcasing various renewable energy sources."
 post_order_in_series: 5
 slug_url: "energy-storage-revolutionizing-power-management"
 created_at: "2024-04-23T15:00:00Z" 

@@ -23,10 +23,9 @@ The git repository defined in the application settings will serve as a database 
 | files/{folder_name}    | dir  | Includes (frontend static blog content) and other files (assets), e.g. images, will be imported from this folder.     | [Example](docs/templates/files/)      |
 | authors.yml    | file  | Authors will be imported from this file.     | [Example](docs/templates/authors.yaml)     |
 | categories.yml      | file  | Categories will be imported from this file.  | [Example](docs/templates/categories.yaml)     |
-| includes.yml      | file  | Includes will be imported from this file.  | [Example](docs/templates/includes.yaml)     |
 | series.yml    | file  | Data related to series (collections) of posts will be imported from this file.      | [Example](docs/templates/series.yaml)     |
 | settings.yml        | file  | Blog-related settings will be imported from this file.   | [Example](docs/templates/settings.yaml)     |
-| socials.yml        | file  | Settings related to social media and other portals will be imported from this file.   | [Example](docs/templates/socials.yaml)     |
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,6 +114,12 @@ The git repository defined in the application settings will serve as a database 
 - [X] REPOSITORY CHANGES SYNCHRONIZATION
 - [ ] Database Schema (in progress...)
 - [ ] Big Picture
+
+### Validator script
+
+- [ ] Validator script should check for all embedded files have unique name & should generate a list of all file names
+- [ ] Validator script should generate file with unique list of all tags
+
 
 ### Next
 - [ ] Implementation

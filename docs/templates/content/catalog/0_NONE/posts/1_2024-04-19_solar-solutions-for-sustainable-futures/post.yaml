@@ -10,7 +10,11 @@ time_to_read_in_minutes: 8
 is_article: true
 is_promoted: true
 is_published: true
-files: ["image.webp"]
+files: 
+    - file: "posts_2160c69a-411e-4098-9e1e-16fd99b1f119.webp"
+      file_alt_text: "An illustrative image showcasing various renewable energy sources."
+    - file: "posts_af08beef-135e-407b-95d2-af811058a9e2.pdf"
+      file_alt_text: "An pdf contains data about various renewable energy sources. "
 post_order_in_series: 1
 slug_url: "solar-solutions-for-sustainable-futures"
 created_at: "2024-04-19T15:00:00Z" 
