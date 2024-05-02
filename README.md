@@ -114,6 +114,13 @@ The git repository defined in the application settings will serve as a database 
 ### Next
 - [ ] Implementation
 
+### Implementation
+- [ ] Project Core (logs, swagger, entity framework, mass transit)
+- [ ] Project structure
+- [ ] Entities and data access 
+- [ ] Workers and stuff for repositories synchronization
+- [ ] API 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
