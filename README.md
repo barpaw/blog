@@ -47,9 +47,8 @@ The git repository defined in the application settings will serve as a database 
 - Modular monolith
 - Multi-tenancy
 - Message bus ([MassTransit](https://github.com/MassTransit/MassTransit) & RabbitMQ)
-- workers
-- in-memory queue
-- outbox pattern
+- Workers
+- Outbox pattern
 - Postgresql Database
 - MinIO - Object Storage
   
@@ -58,23 +57,14 @@ The git repository defined in the application settings will serve as a database 
 
 ## Entities
 
-- post
-- category
-- tag
-- author
-- series
-- setting
-- announcement
-- ad
-- term
-- contact
-- repositories
+- .
+- .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Features
 
-- CRUD Posts/Categories/Tags/Series/Repos
+- CRUD Posts/Categories/Tags/Series/Files/Repos
 - Posts divided into two types: shorts and articles
 - The post has one author, but they may be different authors
 - Social media share 
@@ -82,6 +72,7 @@ The git repository defined in the application settings will serve as a database 
 - Slug URL / Clean URL
 - i18n (English & Polish)
 - Dark Theme
+- Series (gorup posts into series with defined name and order)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +82,6 @@ The git repository defined in the application settings will serve as a database 
 - Admin dashboard (statistics, management)
 - Allow easy integration with external content providers by API
 - Integrate donations
-- Series (gorup posts into series with defined name and order)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,8 +101,8 @@ The git repository defined in the application settings will serve as a database 
 
 ### Planning
 
-- [X] REPOSITORY CHANGES SYNCHRONIZATION
-- [ ] Database Schema (in progress......)
+- [X] Repository Changes Synchronization
+- [ ] Database Schema (in progress...)
 - [ ] Big Picture
 
 ### Validator script
