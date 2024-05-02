@@ -109,7 +109,7 @@ The git repository defined in the application settings will serve as a database 
 
 - [ ] Validator script should check for all embedded files have unique name & should generate a list of all file names
 - [ ] Validator script should generate file with unique list of all tags
-
+- [ ] Validate file names and posts/series order
 
 ### Next
 - [ ] Implementation
