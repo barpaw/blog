@@ -102,7 +102,7 @@ The git repository defined in the application settings will serve as a database 
 ### Planning
 
 - [X] Repository Changes Synchronization
-- [ ] Database Schema (in progress...)
+- [ ] Database Schema (in progress....)
 - [ ] Big Picture
 
 ### Validator script
