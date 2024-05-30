@@ -57,8 +57,8 @@ The git repository defined in the application settings will serve as a database 
 
 ## Entities
 
-- ........
-- ........
+- 
+- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
