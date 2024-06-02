@@ -1,4 +1,4 @@
-schema_version: 1
+version: 1
 series:
     - series_id: "NONE"
       series_name: "None"
