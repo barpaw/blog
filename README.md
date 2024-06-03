@@ -52,7 +52,7 @@ The git repository defined in the application settings will serve as a database 
 - Postgresql Database
 - MinIO - Object Storage
   
-- .
+- ..
 - - .
 - - ..
   - 
