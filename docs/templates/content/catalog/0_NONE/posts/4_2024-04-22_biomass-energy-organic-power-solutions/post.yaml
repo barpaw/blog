@@ -1,19 +1,20 @@
 version: 1
-title: "Biomass Energy: Organic Power Solutions"
-first_paragraph: "Biomass energy, utilizing organic materials, biodegradable wastes, and non-renewable resources, is a vital component of the renewable energy landscape."
-info_html: "Post Sponsored by <a href="https://example.com">Green Future Innovations</a>"
-category: "BIOMASS"
+id: "biomass-energy-organic-power-solutions"
 author: "EMMA_CLARKSON"
 series: "NONE"
+category: "BIOMASS"
+post_order_in_series: 4
+title: "Biomass Energy: Organic Power Solutions"
+first_paragraph: "Biomass energy, utilizing organic materials, biodegradable wastes, and non-renewable resources, is a vital component of the renewable energy landscape."
+info_html: "Post Sponsored by <a href=\"https://example.com\">Green Future Innovations</a>"
 tags: ["biomass energy", "sustainable solutions", "organic power", "renewable resources"]
 time_to_read_in_minutes: 12
 is_article: true
 is_promoted: true
 is_published: true
 files: 
-    - file: "image.webp"
-      file_alt_text: "An illustrative image showcasing various renewable energy sources."
-post_order_in_series: 4
-slug_url: "biomass-energy-organic-power-solutions"
-created_at: "2024-04-22T15:00:00Z" 
+  - file_name: "image.webp"
+    file_alt_text: "An illustrative image showcasing various renewable energy sources."
+created_at: "2024-04-22T15:00:00Z"
 updated_at: ""
+

@@ -3,22 +3,19 @@ id: "solar-solutions-for-sustainable-futures"
 author: "EMMA_CLARKSON"
 series: "NONE"
 category: "SOLAR"
-
+post_order_in_series: 1
 title: "Solar Solutions for Sustainable Futures"
 first_paragraph: "Solar energy plays a vital role in the global shift towards renewable energy, with innovative panels, solar farms, and conventional power grids."
 info_html: "Post Sponsored by <a href="https://example.com">Bright Future Solar</a>"
-
-
 tags: ["solar energy", "renewable sources", "sustainability", "green technology"]
 time_to_read_in_minutes: 8
 is_article: true
 is_promoted: true
 is_published: true
 files: 
-    - file: "posts_2160c69a-411e-4098-9e1e-16fd99b1f119.webp"
+    - file_name: "posts_2160c69a-411e-4098-9e1e-16fd99b1f119.webp"
       file_alt_text: "An illustrative image showcasing various renewable energy sources."
-    - file: "posts_af08beef-135e-407b-95d2-af811058a9e2.pdf"
-      file_alt_text: "An pdf contains data about various renewable energy sources. "
-post_order_in_series: 1
+    - file_name: "posts_af08beef-135e-407b-95d2-af811058a9e2.pdf"
+      file_alt_text: "An pdf contains data about various renewable energy sources."
 created_at: "2024-04-19T15:00:00Z" 
 updated_at: ""

@@ -1,19 +1,19 @@
 version: 1
-title: "Geothermal Energy: Earth's Natural Power"
-first_paragraph: "Geothermal energy is an essential part of our renewable energy toolkit, featuring natural hot springs, geothermal power plants, and traditional energy sources."
-info_html: "Post Sponsored by <a href="https://example.com">Eco Earth Energy</a>"
-category: "GEOTHERMAL"
+id: "geothermal-energy-earths-natural-power"
 author: "EMMA_CLARKSON"
 series: "NONE"
+category: "GEOTHERMAL"
+post_order_in_series: 2
+title: "Geothermal Energy: Earth's Natural Power"
+first_paragraph: "Geothermal energy is an essential part of our renewable energy toolkit, featuring natural hot springs, geothermal power plants, and traditional energy sources."
+info_html: "Post Sponsored by <a href=\"https://example.com\">Eco Earth Energy</a>"
 tags: ["geothermal energy", "sustainable solutions", "earth power", "clean energy"]
 time_to_read_in_minutes: 9
 is_article: true
 is_promoted: true
 is_published: true
 files: 
-    - file: "image.webp"
-      file_alt_text: "An illustrative image showcasing various renewable energy sources."
-post_order_in_series: 2
-slug_url: "geothermal-energy-earths-natural-power"
-created_at: "2024-04-20T15:00:00Z" 
+  - file_name: "image.webp"
+    file_alt_text: "An illustrative image showcasing various renewable energy sources."
+created_at: "2024-04-20T15:00:00Z"
 updated_at: ""
