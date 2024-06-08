@@ -99,7 +99,9 @@ The git repository defined in the application settings will serve as a database 
 - [X] Guest: Archive
 - [X] Guest: Privacy policy / Terms
 - [X] Guest: Contact
-- [X] Guest: Search
+- [X] Guest: Searchceramiczny Porothermceramiczny Porotherm
+
+
 
 ### Planning
 

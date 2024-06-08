@@ -11,53 +11,79 @@ settings:
     blog_logo_file_alt_text: ""
     blog_description: "Green Power Guru offers the latest news, in-depth analyses, and innovative ideas in the field of renewable energy. From solar panels to wind farms and beyond, discover how renewable technologies are transforming our world, one watt at a time."
 external_platforms:
-  - external_platform_code: "FACEBBOKCOM"
+  - external_platform_id: "FACEBBOKCOM"
     external_platform_nametag: "example"
-    external_platform_allow_share: true
+    external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_code: "INSTAGRAMCOM"
+  - external_platform_id: "INSTAGRAMCOM"
     external_platform_nametag: "example"
-    external_platform_allow_share: true
+    external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_code: "GITHUBCOM"
+  - external_platform_id: "TIKTOK"
     external_platform_nametag: "example"
-    external_platform_allow_share: true
+    external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_code: "XCOM"
+  - external_platform_id: "XCOM"
     external_platform_nametag: "example"
-    external_platform_allow_share: true
+    external_platform_share_post_enabled: true
+    external_platform_is_visible: true
+  - external_platform_id: "PINTERESTCOM"
+    external_platform_nametag: "example"
+    external_platform_share_post_enabled: true
+    external_platform_is_visible: true
+  - external_platform_id: "SNAPCHATCOM"
+    external_platform_nametag: "example"
+    external_platform_share_post_enabled: true
+    external_platform_is_visible: true
+  - external_platform_id: "LINKEDINCOM"
+    external_platform_nametag: "example"
+    external_platform_share_post_enabled: true
+    external_platform_is_visible: true
+  - external_platform_id: "BLOGSPOTCOM"
+    external_platform_nametag: "example"
+    external_platform_share_post_enabled: true
+    external_platform_is_visible: true
+  - external_platform_id: "REDDITCOM"
+    external_platform_nametag: "example"
+    external_platform_share_post_enabled: true
+    external_platform_is_visible: true
+  - external_platform_id: "WYKOPPL"
+    external_platform_nametag: "example"
+    external_platform_share_post_enabled: true
+    external_platform_is_visible: true
+  - external_platform_id: "GITHUBCOM"
+    external_platform_nametag: "example"
+    external_platform_share_post_enabled: true
     external_platform_is_visible: true
 includes:
-  - include_type: "AD"
-    include_destiny: "AD_SIDEBAR"
-    include_file: "ad_sidebar.md"
-    is_include_visible: true
-    include_embedded_files: 
-      - file: "example_1.webp"
-        file_alt_text: ""
-      - file: "example_2.webp"
-        file_alt_text: ""
-  - include_type: "ANNONUNCEMENT"
-    include_destiny: "ANNONUNCEMENT_HEADER"
-    include_file: "announcement.md"
-    is_include_visible: true
+  - include_file_name: "header_announcement_0.md"
+    include_is_visible: true
     include_embedded_files: []
-  - include_type: "CONTACT"
-    include_destiny: "CONTACT_PAGE"
-    include_file: "contact.md"
-    is_include_visible: true
+  - include_file_name: "header_announcement_1.md"
+    include_is_visible: true
     include_embedded_files: []
-  - include_type: "PRIVACY_POLICY"
-    include_destiny: "PRIVACY_POLICY_PAGE"
-    include_file: "privacy_policy.md"
-    is_include_visible: true
+  - include_file_name: "page_contact_0.md"
+    include_is_visible: true
+    include_embedded_files: []
+  - include_file_name: "page_privacypolicy_0.md"
+    include_is_visible: true
     include_embedded_files: 
-      - file: "example_1.webp"
+      - file_name: "example_1.webp"
         file_alt_text: ""
-  - include_type: "TERMS"
-    include_destiny: "TERMS_PAGE"
-    include_file: "terms.md"
-    is_include_visible: true
+  - include_file_name: "page_terms_0.md"
+    include_is_visible: true
     include_embedded_files: 
-      - file: "example_1.webp"
+      - file_name: "example_1.webp"
+        file_alt_text: ""
+  - include_file_name: "sidebar_ad_0.md"
+    include_is_visible: true
+    include_embedded_files: 
+      - file_name: "example_1.webp"
+        file_alt_text: ""
+      - file_name: "example_2.webp"
+        file_alt_text: ""
+  - include_file_name: "sidebar_ad_1.md"
+    include_is_visible: true
+    include_embedded_files: 
+      - file_name: "example_1.webp"
         file_alt_text: ""
