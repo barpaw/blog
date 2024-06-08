@@ -57,11 +57,6 @@ The git repository defined in the application settings will serve as a database 
 
 ## Entities
 
-- 
-- ..
-....
-...
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Features
@@ -128,7 +123,6 @@ The git repository defined in the application settings will serve as a database 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Inspirations
-- [Decorator Pattern In ASP.NET Core](https://www.milanjovanovic.tech/blog/decorator-pattern-in-asp-net-core)
 
 ## License
 
