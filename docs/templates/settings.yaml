@@ -11,47 +11,47 @@ settings:
     blog_logo_file_alt_text: ""
     blog_description: "Green Power Guru offers the latest news, in-depth analyses, and innovative ideas in the field of renewable energy. From solar panels to wind farms and beyond, discover how renewable technologies are transforming our world, one watt at a time."
 external_platforms:
-  - external_platform_id: "FACEBBOKCOM"
+  - external_platform_code: "FACEBBOKCOM"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "INSTAGRAMCOM"
+  - external_platform_code: "INSTAGRAMCOM"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "TIKTOK"
+  - external_platform_code: "TIKTOK"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "XCOM"
+  - external_platform_code: "XCOM"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "PINTERESTCOM"
+  - external_platform_code: "PINTERESTCOM"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "SNAPCHATCOM"
+  - external_platform_code: "SNAPCHATCOM"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "LINKEDINCOM"
+  - external_platform_code: "LINKEDINCOM"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "BLOGSPOTCOM"
+  - external_platform_code: "BLOGSPOTCOM"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "REDDITCOM"
+  - external_platform_code: "REDDITCOM"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "WYKOPPL"
+  - external_platform_code: "WYKOPPL"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true
-  - external_platform_id: "GITHUBCOM"
+  - external_platform_code: "GITHUBCOM"
     external_platform_nametag: "example"
     external_platform_share_post_enabled: true
     external_platform_is_visible: true

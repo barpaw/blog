@@ -1,11 +1,11 @@
 version: 1
 authors:
-    - author_id: "EMMA_CLARKSON"
+    - author_code: "EMMA_CLARKSON"
       author_name: "Emma Clarkson"
       author_description: "Emma Clarkson is a passionate advocate for green technology and a blogger specializing in renewable energy based in Austin, TX. Her blog, 'Green Tomorrow', focuses on the transformative impact of renewable energy systems and sustainable practices around the globe. Emma's in-depth analysis and informative posts aim to inspire action and highlight the importance of environmental stewardship and innovation in renewable technologies."
       author_avatar_file_name: "authors_avatar_emma_clarkson.webp"
       author_avatar_file_alt_text: ""
-    - author_id: "NICK_HAMMOND"
+    - author_code: "NICK_HAMMOND"
       author_name: "Nick Hammond"
       author_description: "Nick Hammond is a dedicated renewable energy blogger based in San Francisco, CA, with a background in environmental science. Through his blog "EcoEnergy Insights," he explores the latest trends in renewable technologies and policies, aiming to educate and empower his audience. Nick's work emphasizes the importance of sustainable solutions and community advocacy for greener policies."
       author_avatar_file_name: "authors_avatar_nick_hammond.webp"
