@@ -113,6 +113,7 @@ The git repository defined in the application settings will serve as a database 
 ### Next
 - [ ] Implementation
 
+
 ### Implementation
 - [ ] Project Core (logs, swagger, entity framework, mass transit)
 - [ ] Project structure
