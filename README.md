@@ -54,6 +54,7 @@ The git repository defined in the application settings will serve as a database 
 - MinIO - Object Storage
   
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Entities
