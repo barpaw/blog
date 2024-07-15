@@ -2,6 +2,7 @@
 
 [![100commitow.pl](https://img.shields.io/badge/Participant-100commitow.pl-000000)](http://100commitow.pl)
 
+
 # Blog
 
 ![Logo](docs/images/logo/logo_big.png?raw=true)
